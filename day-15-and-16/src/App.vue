@@ -1,0 +1,142 @@
+<template>
+  <ul class="flex gap-4 flex-wrap" >
+<li v-for="user in users" :key="user.id">
+
+  <UserCard :user="user" :alertOpen="alertOpen"/>
+</li>
+  </ul>
+  <hr>
+  <HelloWorld msg="Hello"/>
+  <TestComponent name="Abdulrehman"/>
+  <Parent_Component/>
+</template>
+
+<script>
+import UserCard from './components/UserCard.vue';
+import HelloWorld from './components/HelloWorld.vue'
+import TestComponent from './components/Test.vue'
+import Parent_Component from './Parent_Component.vue';
+
+
+export default {
+  name: 'App',
+  components: {
+    HelloWorld,
+    TestComponent, 
+    Parent_Component,
+    UserCard
+  },
+  data(){
+    return{
+      users: [
+    {
+      id: 1,
+      name: "Alice Johnson",
+      age: 28,
+      email: "alice.johnson@example.com",
+      address: "123 Main St, Springfield, IL",
+      phone: "555-1234",
+      avatar: `https://avatar.iran.liara.run/public/1`, // Avatar URL using the user's id
+    },
+    {
+      id: 2,
+      name: "Bob Smith",
+      age: 35,
+      email: "bob.smith@example.com",
+      address: "456 Elm St, Springfield, IL",
+      phone: "555-5678",
+      avatar: `https://avatar.iran.liara.run/public/2`,
+    },
+    {
+      id: 3,
+      name: "Charlie Brown",
+      age: 42,
+      email: "charlie.brown@example.com",
+      address: "789 Maple Ave, Springfield, IL",
+      phone: "555-8765",
+      avatar: `https://avatar.iran.liara.run/public/3`,
+    },
+    {
+      id: 4,
+      name: "David Williams",
+      age: 31,
+      email: "david.williams@example.com",
+      address: "321 Oak St, Springfield, IL",
+      phone: "555-3456",
+      avatar: `https://avatar.iran.liara.run/public/4`,
+    },
+    {
+      id: 5,
+      name: "Eva Davis",
+      age: 27,
+      email: "eva.davis@example.com",
+      address: "654 Pine Rd, Springfield, IL",
+      phone: "555-6789",
+      avatar: `https://avatar.iran.liara.run/public/5`,
+    },
+    {
+      id: 6,
+      name: "Frank Miller",
+      age: 45,
+      email: "frank.miller@example.com",
+      address: "987 Cedar Ln, Springfield, IL",
+      phone: "555-9876",
+      avatar: `https://avatar.iran.liara.run/public/6`,
+    },
+    {
+      id: 7,
+      name: "Grace Lee",
+      age: 29,
+      email: "grace.lee@example.com",
+      address: "246 Birch Dr, Springfield, IL",
+      phone: "555-2468",
+      avatar: `https://avatar.iran.liara.run/public/7`,
+    },
+    {
+      id: 8,
+      name: "Hank Moore",
+      age: 38,
+      email: "hank.moore@example.com",
+      address: "135 Walnut Ave, Springfield, IL",
+      phone: "555-1357",
+      avatar: `https://avatar.iran.liara.run/public/8`,
+    },
+    {
+      id: 9,
+      name: "Isabella Turner",
+      age: 33,
+      email: "isabella.turner@example.com",
+      address: "864 Cherry Blvd, Springfield, IL",
+      phone: "555-8642",
+      avatar: `https://avatar.iran.liara.run/public/9`,
+    },
+    {
+      id: 10,
+      name: "Jack White",
+      age: 41,
+      email: "jack.white@example.com",
+      address: "975 Poplar St, Springfield, IL",
+      phone: "555-9753",
+      avatar: `https://avatar.iran.liara.run/public/10`,
+    },
+  ]
+    }
+  },
+  methods:{
+    alertOpen(name){
+      alert(`Hello user: ${name}`)
+    }
+  }
+}
+</script>
+
+<style>
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 60px;
+}
+</style>

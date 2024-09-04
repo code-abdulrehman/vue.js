@@ -108,3 +108,10 @@ if else (condional rendering)
 ### day 14
 array on loop
 for loop v-for="user in users" :key="userid"
+
+### day 15 + 16
+15
+Pass Data Parent to Child Component
+
+16
+reuse component with looping
