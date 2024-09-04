@@ -115,3 +115,18 @@ Pass Data Parent to Child Component
 
 16
 reuse component with looping
+
+### day-17
+HTML binding
+v-html="tag" 
+tag: <h1?>H1</h1>
+
+### day 18
+ Class Binding | Dynamic Style
+
+### day 19 + 20
+Props 
+1 compponent ma sy dosry component ma data transfor krny ky l e a props ka use hota hy.
+
+19 (parent to child data transfor)
+20 (child to parent data transfor)
