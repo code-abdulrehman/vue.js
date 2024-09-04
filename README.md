@@ -101,3 +101,10 @@ tow inputs data get and  print in console
 
 ### day 12
 Get Checkbox & Radio Button Value & 2 way binding# vue.js
+
+### day 13
+if else (condional rendering)
+
+### day 14
+array on loop
+for loop v-for="user in users" :key="userid"
