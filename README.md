@@ -130,3 +130,21 @@ Props
 
 19 (parent to child data transfor)
 20 (child to parent data transfor)
+
+
+### day 21
+ref
+
+### day 22 + 23 + 24
+22 simple form
+23 complete form
+
+24 form validition
+
+### day 25
+Form Modifiers
+ v-model.number="data"  //convert to number
+  v-model.number.lazy.trim //multiple 
+
+### day-26
+non-props

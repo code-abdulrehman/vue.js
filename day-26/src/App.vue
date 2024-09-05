@@ -1,6 +1,6 @@
 <template>
   <HelloWorld msg="Hello"/>
-  <TestComponent name="Abdulrehman"/>
+  <TestComponent name="Abdulrehman" id="user-f"/>
 </template>
 
 <script>
