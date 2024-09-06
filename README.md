@@ -148,3 +148,11 @@ Form Modifiers
 
 ### day-26
 non-props
+
+### day- 27
+ Computed Property
+ Computed Property similer hy react ke useMemo hook sy, (agr 1 function ko bar bar run (exicut ) nhi krwama chty to os ko caches kr walyty hyn)
+ 
+ computed: {
+   [ functions]
+ }

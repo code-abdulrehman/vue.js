@@ -1,24 +1,29 @@
 <script setup>
+import { ref } from 'vue'
 import { RouterLink, RouterView } from 'vue-router'
 import HelloWorld from './components/HelloWorld.vue'
 import Counter from './components/Counter.vue'
-import LoginForm from './components/LoginForm.vue';
+import { useParallax } from '@vueuse/core'
 
+const container = ref(null)
+const { tilt, roll, source } = useParallax(container)
+
+console.log('Container ref:', container)
+console.log('Parallax instance:', { tilt, roll, source })
 </script>
 
 <template>
   <header>
-    <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
-
     <div class="wrapper">
       <HelloWorld msg="You did it!" />
-
+      <div ref="container"  class="border p-6 shadow-2xl">
+        hhh
+      </div>
       <nav>
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/about">About</RouterLink>
       </nav>
-      <LoginForm/>
-      <Counter/>
+      <Counter />
     </div>
   </header>
 
