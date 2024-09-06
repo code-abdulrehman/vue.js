@@ -200,7 +200,7 @@ non-props
  <Teleport to="#footer"><FooterComponent/></Teleport>
  is tag ka use kr ky to ma id dyty hyn.
 - Q: kya hum <Teleport> ma components ky bjaay screach sy html and css write kr skty hyn?
-- A: Yes, Its possible
+- A: Yes, Its possible 
 
  ### day-33
 Life cycle method
