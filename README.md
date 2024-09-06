@@ -202,10 +202,17 @@ non-props
 - Q: kya hum <Teleport> ma components ky bjaay screach sy html and css write kr skty hyn?
 - A: Yes, Its possible 
 
- ### day-33
+ ### day-33 -34-35 -36 -37
+ - 33
 Life cycle method
     i- Create ( jb 1 component ka structure ready ho jata hy)
     ii- Mount   ( jb os component ma os ke data prperties add ho jati [ ex: methods, varables, e.t.c])
     iii- Update ( jb btn wgyra pr click krty hyn to data chnage hota hy add hot ahy delete hota hy,[ update hota hy ])
     iv- Unmount (DOM sy data hta dyty hyn.)
 
+- 34 :i -
+- 35: ii-
+- 36 : iii - && updated & beforeUpdate
+is ka use login krty time inouts ka dta check krny ky le  ause kr skty hyn
+
+- 37: iv- jb hum ksi componen tko Ui sy remove krty hyn o ya mdla lyta hy.
