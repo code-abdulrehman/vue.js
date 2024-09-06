@@ -1,17 +1,20 @@
 <template>
   <HelloWorld msg="Hello"/>
-  <TestComponent name="Abdulrehman"/>
+  <TestComponent name="Abdulrehman" />
+  <ParentComponent />
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
 import TestComponent from './components/Test.vue'
+import ParentComponent from './ParentComponent.vue';
 
 export default {
   name: 'App',
   components: {
     HelloWorld,
     TestComponent, 
+    ParentComponent
     
 
   },

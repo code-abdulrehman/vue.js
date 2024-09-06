@@ -1,6 +1,7 @@
 <template>
   <HelloWorld msg="Hello"/>
-  <TestComponent name="Abdulrehman"/>
+  <TestComponent name="Abdulrehman" />
+  <ParentComponent />
 </template>
 
 <script>

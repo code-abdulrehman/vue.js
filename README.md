@@ -156,3 +156,56 @@ non-props
  computed: {
    [ functions]
  }
+
+
+ ### day-28
+ vue in Watchers
+ Ya similer hy react ke hook useEffect + [dependance]
+ jb 1 variable change ho ga to ua call ho jay ga, 
+ (watch:{x} data:{x},
+ same name hona zrori hy)
+
+##  --adv
+ ### day-29
+ Slots
+ similer to react "this.props.children"
+ agr hum props pass krty hyn to props ma hum fix (data type), value he send kr skty hyn lykin slot ke help sy hum 1 component sy dosry component ma <component/> b bhaaj skty  hyn
+ - Q: Agr hum <slot></slot> ka use krty hyn to wo to thek kma krta hy jb hum os ko use krty tim os am data add krty hyn lukin jb nhi add krty to os ma ma msg kyys show hoga / by default value ksy add krni?
+- A: <slot></slot> 
+
+ ### day-30
+ Multiple slot with Name Slots
+ mulitple slot use krny ky le humy hr slot ko <temp> <slot name="main"> </temp> istrha use krna hota hy and ,
+ use krty tim 
+ compnent ma <c> <template v-slot-main> <c/>kr ky use kr skty hyn
+
+ -Q : Kya hum 1 slot ky ander sloat use kr skty hayn?
+ - A: Yes
+
+ ### day-31
+  Dynamic Component / (Tabs)
+  is ka use hum os time krty hyn jb humry pass 1 su zyda components hon, lykin hun os ma sy srif selected compoent he show krna chty hyn,
+  if-else / switch ka use na krty howy
+
+  <component :is="tab" />
+  data(){
+    tab:"chtas"
+  }
+
+
+### day-32
+ Teleport component
+ by defualt react && Vue , e.t.c ma Html file ma 1 id bna kr os ko js sy connect r de ajata hy and full app osi id pr hota hy,
+ lykin agr hum koi dosri id crete krni hy and os pr components render krny hyn (multiple id's)
+ <Teleport to="#footer"><FooterComponent/></Teleport>
+ is tag ka use kr ky to ma id dyty hyn.
+- Q: kya hum <Teleport> ma components ky bjaay screach sy html and css write kr skty hyn?
+- A: Yes, Its possible
+
+ ### day-33
+Life cycle method
+    i- Create ( jb 1 component ka structure ready ho jata hy)
+    ii- Mount   ( jb os component ma os ke data prperties add ho jati [ ex: methods, varables, e.t.c])
+    iii- Update ( jb btn wgyra pr click krty hyn to data chnage hota hy add hot ahy delete hota hy,[ update hota hy ])
+    iv- Unmount (DOM sy data hta dyty hyn.)
+
