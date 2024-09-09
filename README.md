@@ -217,4 +217,6 @@ Life cycle method
 - 37: iv- jb hum ksi componen tko Ui sy remove krty hyn o ya mdla lyta hy.-- jb 1 compone yko unmout krn ahy to dosrt ke apis ko handle krna assan hhy
 
 ### day-38
-Routing
+38 Routing
+39 dynamic routing "useRoute"
+40 Notfound page " pathmatch(.*)()"

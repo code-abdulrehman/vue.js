@@ -16,6 +16,11 @@ const routes = [
     path: '/test/:id',
     name: 'test',
     component: () => import('@/views/Test.vue') // Assuming Test.vue uses the TestComponent
+  },
+  {
+    path: '/:pathMatch(.*)*',
+    name: 'notfound',
+    component: () => import('@/views/NotFound.vue') // Assuming Test.vue uses the TestComponent
   }
 ];
 
