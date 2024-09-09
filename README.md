@@ -216,7 +216,18 @@ Life cycle method
 
 - 37: iv- jb hum ksi componen tko Ui sy remove krty hyn o ya mdla lyta hy.-- jb 1 compone yko unmout krn ahy to dosrt ke apis ko handle krna assan hhy
 
-### day-38
+### day-38 -39 -40
 38 Routing
 39 dynamic routing "useRoute"
 40 Notfound page " pathmatch(.*)()"
+
+
+## --API's
+
+### day-41 -42 -43
+ 41 -what is rest API? , 5W's
+
+42  -Call Get API
+
+43 -show data in list & styles
+
