@@ -212,7 +212,9 @@ Life cycle method
 
 - 34 :i -
 - 35: ii-
-- 36 : iii - && updated & beforeUpdate
-is ka use login krty time inouts ka dta check krny ky le  ause kr skty hyn
+- 36 : iii - && updated & beforeUpdate -- is ka use login krty time inouts ka dta check krny ky le  ause kr skty hyn
 
-- 37: iv- jb hum ksi componen tko Ui sy remove krty hyn o ya mdla lyta hy.
+- 37: iv- jb hum ksi componen tko Ui sy remove krty hyn o ya mdla lyta hy.-- jb 1 compone yko unmout krn ahy to dosrt ke apis ko handle krna assan hhy
+
+### day-38
+Routing
