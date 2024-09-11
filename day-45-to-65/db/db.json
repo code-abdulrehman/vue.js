@@ -18,5 +18,44 @@
       "email": "admin@admin.com",
       "password": "12345678"
     }
+  ],
+  "restaurent": [
+    {
+      "id": "y679",
+      "name": "KFC",
+      "imgage": "imgage",
+      "address": "BWP road",
+      "contact": "+233-44444444",
+      "image": "https://raw.githubusercontent.com/xfiveco/mock-api-images/main/images/img-04-s.jpg"
+    },
+    {
+      "id": "ab47",
+      "name": "HFC",
+      "imgage": "imgage",
+      "address": "HSP road , 54",
+      "contact": "+233-99443444",
+      "image": "https://raw.githubusercontent.com/xfiveco/mock-api-images/main/images/img-03-xl.jpg"
+    },
+    {
+      "id": "c882",
+      "name": "ewd",
+      "imgage": "imgage",
+      "address": "HSP road",
+      "contact": "+233-99443444"
+    },
+    {
+      "id": "3050",
+      "name": "swswq",
+      "address": "123 Main St",
+      "contact": "4432432",
+      "image": "https://raw.githubusercontent.com/xfiveco/mock-api-images/main/images/img-04-l.jpg"
+    },
+    {
+      "id": "f27d",
+      "name": "Test62",
+      "address": "123 Main St",
+      "contact": "4432432",
+      "image": "https://raw.githubusercontent.com/xfiveco/mock-api-images/main/images/img-02-m.jpg"
+    }
   ]
 }

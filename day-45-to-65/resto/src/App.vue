@@ -5,7 +5,7 @@ import Header from './components/Header.vue';
 </script>
 
 <template>
-  <div class="w-screen h-screen bg">
+  <div class="w-screen min-h-screen h-auto pb-4 overflow-x-hidden bg">
     <Header></Header>
 
     <RouterView />
